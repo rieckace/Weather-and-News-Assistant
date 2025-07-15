@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # 🌤️📰 News & Weather Assistant
 
 This assistant gives you:
@@ -19,13 +19,7 @@ This assistant gives you:
 ---
 
 ## 📁 Project Structure
-news-weather-assistant/
-│
-├── assistant_app.py # Main Streamlit app (UI + logic)
-├── requirements.txt # All Python dependencies
-├── .env # Your environment variables (not shared)
-├── .env.example # Sample of required keys for setup
-├── README.md # Project overview and setup instructions
+<img width="559" height="244" alt="image" src="https://github.com/user-attachments/assets/145c6a10-65ab-432e-9d0b-71f53cfedebb" />
 
 
 ## ✅ Features
@@ -38,7 +32,7 @@ news-weather-assistant/
 ## 🚀 Run Locally
 
 1. **Clone the repository**:
-git clone https://github.com/your-username/news-weather-assistant.git
+git clone https://github.com/rieckace/news-weather-assistant.git  
 cd news-weather-assistant
 
 Install dependencies:
@@ -83,6 +77,4 @@ groq
 
 Made with ❤️ using Groq LLMs and 🤗 HuggingFace.
 =======
-# Weather-and-News-Assistant
-🌤️📰 A Streamlit-powered assistant that provides real-time weather updates and top news headlines, summarized using Groq LLMs and HuggingFace embeddings.
->>>>>>> 57669d1c71cd1d7fc756ed9149c38847149caa8a
+
