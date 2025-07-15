@@ -24,7 +24,7 @@ embedding_model = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 st.set_page_config(page_title="🌦️ Weather & News Assistant", layout="centered")
 st.title("🌤️ Weather and 📰 News Assistant")
 
-# --- Weather API ---
+# --- Weather API --- from the openweather
 def fetch_weather(city):
     url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={WEATHER_API_KEY}&units=metric"
     res = requests.get(url)
