@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🌤️📰 News & Weather Assistant
 
 This assistant gives you:
@@ -81,3 +82,7 @@ sentence-transformers
 groq
 
 Made with ❤️ using Groq LLMs and 🤗 HuggingFace.
+=======
+# Weather-and-News-Assistant
+🌤️📰 A Streamlit-powered assistant that provides real-time weather updates and top news headlines, summarized using Groq LLMs and HuggingFace embeddings.
+>>>>>>> 57669d1c71cd1d7fc756ed9149c38847149caa8a
