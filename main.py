@@ -11,7 +11,7 @@ GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 WEATHER_API_KEY = os.getenv("WEATHER_API_KEY")
 NEWS_API_KEY = os.getenv("NEWS_API_KEY")
 
-# LLM from Groq
+# LLM from Groq using the model from the HuggingFace
 llm = ChatOpenAI(
     model="llama3-8b-8192",
     openai_api_key=GROQ_API_KEY,
