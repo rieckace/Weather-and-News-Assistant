@@ -38,7 +38,7 @@ def fetch_weather(city):
 
 # --- News API ---
 def fetch_top_news():
-    url = f"https://newsapi.org/v2/top-headlines?country=in&apiKey={NEWS_API_KEY}"
+    url = f"https://newsapi.org/v2/top-headlines?country=us&category=general&pageSize=10&apiKey={NEWS_API_KEY}"
     res = requests.get(url)
     if res.status_code != 200:
         return []
